@@ -1,0 +1,11 @@
+Field	                Details
+
+Test	         Reflected Cross-Site Scripting
+
+Target	            DVWA — 10.10.10.10
+
+Security level	          Low
+
+Payload	          <script>alert('SecureCorp XSS Test')</script>
+
+Recommendation	    Context-aware output encoding and safe input handling

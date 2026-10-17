@@ -1,0 +1,18 @@
+Field	                Finding
+
+Finding 	     Legacy FTP service exposed
+
+Asset	             Metasploitable 2
+ 
+IP address	      10.10.10.10
+
+Port	                TCP 21
+
+Detected service	vsftpd 2.3.4
+
+Evidence	   Nmap service scan and ftp-syst output
+
+Potential impact	Credentials and data may be exposed because FTP traffic is unencrypted
+
+
+Recommendation	Replace FTP with SFTP or another secure transfer protocol; restrict access and remove unnecessary services

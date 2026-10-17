@@ -1,0 +1,10 @@
+Field	          Details
+
+Test	      Local File Inclusion / Directory Traversal
+
+Target	          DVWA — 10.10.10.10
+
+Security level	        Low
+
+
+Recommendation	Restrict file selection to an allowlist of permitted pages; canonicalize and validate paths

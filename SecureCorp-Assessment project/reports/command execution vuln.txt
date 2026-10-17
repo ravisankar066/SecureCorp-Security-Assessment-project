@@ -1,0 +1,11 @@
+Field	               Details
+
+Test	          OS Command Injection
+
+Target	            DVWA — 10.10.10.10
+
+Security level	          low
+
+Evidence	Screenshot of input and output
+
+Recommendation	Avoid shell execution with user-controlled input; use safe APIs and strict input validation                     
